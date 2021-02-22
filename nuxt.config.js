@@ -36,7 +36,15 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/apollo',
   ],
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'http://localhost:1337/graphql'
+      }
+    }
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
