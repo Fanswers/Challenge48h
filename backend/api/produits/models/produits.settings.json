@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produits",
+  "info": {
+    "name": "Produits",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "imageType": {
+      "type": "enumeration",
+      "enum": [
+        "passionFroid",
+        "fournisseur",
+        "logo"
+      ],
+      "required": true,
+      "default": "passionFroid"
+    },
+    "productImage": {
+      "type": "boolean",
+      "required": true
+    },
+    "humanImage": {
+      "type": "boolean",
+      "required": true
+    },
+    "institutionalImage": {
+      "type": "boolean",
+      "required": true
+    },
+    "imageFormat": {
+      "type": "enumeration",
+      "enum": [
+        "vertical",
+        "horizontal"
+      ],
+      "required": true,
+      "default": "horizontal"
+    },
+    "imageCredirs": {
+      "type": "text",
+      "required": true
+    },
+    "limitedRightsOfUse": {
+      "type": "boolean",
+      "required": true
+    },
+    "Copyright": {
+      "type": "text",
+      "required": true
+    },
+    "EndDateRightsOfUse": {
+      "type": "date",
+      "required": true
+    },
+    "tags": {
+      "type": "text"
+    }
+  }
+}
