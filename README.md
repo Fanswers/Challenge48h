@@ -2,7 +2,8 @@
 
 ## Build Setup
 
-```bash à la racine du projet
+```bash
+# a la racine du projet
 # install dependencies
 $ npm install
 
@@ -23,10 +24,15 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Build Setup
 
-```bash dans le dossier "/backend"
+```bash
+# dans le dossier "/backend"
 # install dependencies
 $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
+
+$ npm install --save @nuxtjs/apollo
+
+$ npm install --save graphql-tag
 ```
