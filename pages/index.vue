@@ -6,14 +6,7 @@
         Pomona
       </h1>
       <div class="links">
-        <a
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Se connecter
-        </a>
+          <NuxtLink to="auth">Se connecter</NuxtLink>
       </div>
     </div>
   </div>

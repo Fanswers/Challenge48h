@@ -12,9 +12,6 @@
               <div>
                   <h3>{{ produit.name }}</h3>
                   <p>{{ produit.description }}</p>
-                  // Link to the produit using router-link
-                  <router-link :to="{ name: 'produits-id', params: { id: produit.id }}" tag="a" class="uk-button uk-button-primary">See dishes
-                  </router-link>
               </div>
           </div>
       </div>

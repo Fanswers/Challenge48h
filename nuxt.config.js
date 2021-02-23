@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -37,6 +39,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/apollo',
+    '@nuxtjs/auth',
   ],
   
   apollo: {
