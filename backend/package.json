@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "graphql-tag": "^2.11.0",
     "knex": "<0.20.0",
     "sqlite3": "5.0.0",
     "strapi": "3.5.0",
