@@ -38,6 +38,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/apollo',
   ],
+  
   apollo: {
     clientConfigs: {
       default: {
