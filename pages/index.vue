@@ -3,24 +3,16 @@
     <div>
       <Logo />
       <h1 class="title">
-        frontend
+        Pomona
       </h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
+          Se connecter
         </a>
       </div>
     </div>
@@ -40,7 +32,6 @@ export default {}
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family:
     'Quicksand',
@@ -58,7 +49,6 @@ export default {}
   color: #35495e;
   letter-spacing: 1px;
 }
-
 .subtitle {
   font-weight: 300;
   font-size: 42px;
@@ -66,7 +56,6 @@ export default {}
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
 .links {
   padding-top: 15px;
 }
