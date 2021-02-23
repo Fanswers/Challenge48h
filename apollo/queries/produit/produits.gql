@@ -1,0 +1,9 @@
+query Produits {
+  produits {
+    id
+    name
+    image {
+      url
+    }
+  }
+}
